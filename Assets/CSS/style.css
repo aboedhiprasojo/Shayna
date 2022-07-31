@@ -1,0 +1,275 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #5a6772;
+}
+
+a {
+  color: #150544;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* # header */
+
+.header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+
+.header.header-scrolled {
+  background: #fff;
+  padding: 15px 0;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+.header .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+/* Navigation Menu */
+.navbar .active {
+  color: #150544;
+  font-weight: 500;
+}
+
+.navbar .nav-item {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.navbar .btn-daftar {
+  color: #fff;
+  background-color: #150544;
+  padding: 11px 42px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.navbar .btn-daftar:hover {
+  color: #fff;
+  background-color: #120046;
+}
+
+/* Features Section */
+
+.feature {
+  margin-top: 100px;
+  width: 100%;
+  height: 566px;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-features {
+  text-align: center;
+}
+
+.feature h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 800;
+  color: #150544;
+}
+
+.feature p {
+  color: #5a6772;
+  font-weight: 400;
+  font-size: 18px;
+}
+/* 
+.feature .features-content {
+  margin-top: 30px;
+} */
+
+.card-features .card-body h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #150544;
+  margin-bottom: 6px;
+}
+
+.card-features .card-body p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #5a6772;
+}
+
+/* Package */
+.package {
+  margin-top: 150px;
+}
+
+.package .card {
+  border-radius: 11px;
+  border: 0;
+}
+
+.package .card-company {
+  border-radius: 11px;
+  background: #fff;
+  border: 2px solid #160647;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.package .card h2 {
+  color: #150544;
+  font-weight: 800;
+  font-size: 52px;
+}
+
+.text-small {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.package .card p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #150544;
+}
+
+.package .panel-heading {
+  padding: 14px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: #150544;
+}
+
+.package .panel-heading p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.package .card ul,
+.package .card-company ul {
+  padding: 20px 0;
+  list-style: none;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.package .card li,
+.package .card-company li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #150544;
+  font-weight: 500;
+}
+
+.package .card li img,
+.package .card-company li img {
+  margin-right: 14px;
+}
+
+.btn-price {
+  padding: 12px 42px;
+  background-color: #6552ff;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-price:hover {
+  background-color: #5b4ae1;
+  color: #fff;
+}
+
+.btn-price-lifetime {
+  padding: 12px 42px;
+  background-color: #150544;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+}
+
+.btn-price-lifetime:hover {
+  background-color: #1c1339;
+  color: #fff;
+}
+
+.card-required p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #150544;
+}
+
+.card-required a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #150544;
+}
+
+.bg-blue {
+  z-index: -10;
+  margin-top: -450px;
+  background-color: #e7f6ff;
+  height: 520px;
+}
+
+/* Story Client */
+.story {
+  background-color: #150544;
+}
+
+.quote {
+  left: 16%;
+}
+
+.story-content {
+  background: url(/Assets/IMG/Union\ 2.svg);
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+}
+
+.text-decoration-underline-purple {
+  text-decoration: underline #6552ff;
+}
+
+.story-content img {
+  width: 100px;
+  height: 100px;
+}
+
+.story-content h5 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.story-content p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #aba6bb;
+}
